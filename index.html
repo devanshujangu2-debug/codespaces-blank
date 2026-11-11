@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nagauri Singaar | Rajasthani Artificial Jewellery, Osian</title>
+  <meta name="description" content="Nagauri Singaar, Osian: Rajasthani artificial jewellery for women and men. Kanthi, jhumka, borla, necklace sets and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <a href="#home" class="logo">Nagauri <span>Singaar</span></a>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#collection">Collection</a>
+      <a href="#products">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-sm" href="https://wa.me/919571576882" target="_blank" rel="noopener">WhatsApp</a>
+    <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="orb orb1" data-speed="0.15"></div>
+    <div class="orb orb2" data-speed="-0.1"></div>
+    <div class="orb orb3" data-speed="0.25"></div>
+    <div class="hero-inner">
+      <p class="eyebrow reveal">Osian · Rajasthan</p>
+      <h1 class="hero-title">
+        <span class="line"><span class="word">Rajasthani</span></span>
+        <span class="line"><span class="word">Shine,</span></span>
+        <span class="line"><span class="word accent">Made to Wear.</span></span>
+      </h1>
+      <p class="hero-sub reveal" data-delay="500">Beautiful artificial jewellery inspired by Rajasthani tradition. Kanthi, jhumka, borla, necklace sets and more at honest prices.</p>
+      <div class="hero-cta reveal" data-delay="700">
+        <a href="#products" class="btn">Shop the Collection</a>
+        <a href="#contact" class="btn btn-ghost">Visit Our Shop</a>
+      </div>
+    </div>
+    <div class="scroll-hint">Scroll<span></span></div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="track">
+      <span>Kanthi</span><span>✦</span><span>Jhumka</span><span>✦</span><span>Borla</span><span>✦</span><span>Rakhdi</span><span>✦</span><span>Necklace Sets</span><span>✦</span><span>Bangles</span><span>✦</span><span>1 Gram Jewellery</span><span>✦</span>
+      <span>Kanthi</span><span>✦</span><span>Jhumka</span><span>✦</span><span>Borla</span><span>✦</span><span>Rakhdi</span><span>✦</span><span>Necklace Sets</span><span>✦</span><span>Bangles</span><span>✦</span><span>1 Gram Jewellery</span><span>✦</span>
+    </div>
+  </div>
+
+  <!-- COLLECTION (BENTO) -->
+  <section class="section" id="collection">
+    <div class="head">
+      <p class="eyebrow reveal">Explore</p>
+      <h2 class="reveal" data-delay="100">Our Collections</h2>
+    </div>
+    <div class="bento">
+      <a href="#products" class="tile t-big reveal" data-filter="women" style="--img:url('images/women.jpg'); --g:linear-gradient(135deg,#ffb347,#ff7e00)">
+        <div class="tile-txt"><h3>For Women</h3><p>Necklaces, jhumkas, borlas</p></div>
+      </a>
+      <a href="#products" class="tile reveal" data-delay="100" data-filter="men" style="--img:url('images/men.jpg'); --g:linear-gradient(135deg,#ffd36b,#f59e0b)">
+        <div class="tile-txt"><h3>For Men</h3><p>Kanthi &amp; chains</p></div>
+      </a>
+      <a href="#products" class="tile reveal" data-delay="200" data-filter="all" style="--img:url('images/bridal.jpg'); --g:linear-gradient(135deg,#ff9a56,#e8590c)">
+        <div class="tile-txt"><h3>Festive Sets</h3><p>Wedding &amp; festival wear</p></div>
+      </a>
+      <a href="#products" class="tile t-wide reveal" data-delay="150" data-filter="all" style="--img:url('images/onegram.jpg'); --g:linear-gradient(135deg,#ffe08a,#ffa726)">
+        <div class="tile-txt"><h3>1 Gram Jewellery</h3><p>Light, shiny, affordable</p></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="section alt" id="products">
+    <div class="head">
+      <p class="eyebrow reveal">Best Sellers</p>
+      <h2 class="reveal" data-delay="100">Shop Our Favourites</h2>
+      <div class="tabs reveal" data-delay="200">
+        <button class="tab active" data-f="all">All</button>
+        <button class="tab" data-f="women">Women</button>
+        <button class="tab" data-f="men">Men</button>
+      </div>
+    </div>
+
+    <div class="grid" id="grid">
+      <!-- Change names, prices and images as you like -->
+      <article class="card reveal" data-cat="women">
+        <div class="img" style="--img:url('images/p1.jpg'); --g:linear-gradient(135deg,#ffb347,#ff7e00)"><span class="badge">-40%</span></div>
+        <h3>Rajwadi Necklace Set</h3>
+        <div class="stars">★★★★★ <small>(128)</small></div>
+        <div class="price"><b>₹599</b> <s>₹999</s></div>
+        <a class="btn btn-sm" href="https://wa.me/919571576882?text=Hi%2C%20I%20want%20to%20order%20Rajwadi%20Necklace%20Set" target="_blank" rel="noopener">Order on WhatsApp</a>
+      </article>
+      <article class="card reveal" data-delay="100" data-cat="women">
+        <div class="img" style="--img:url('images/p2.jpg'); --g:linear-gradient(135deg,#ffd36b,#f59e0b)"><span class="badge">-35%</span></div>
+        <h3>Oxidised Jhumka</h3>
+        <div class="stars">★★★★☆ <small>(94)</small></div>
+        <div class="price"><b>₹249</b> <s>₹399</s></div>
+        <a class="btn btn-sm" href="https://wa.me/919571576882?text=Hi%2C%20I%20want%20to%20order%20Oxidised%20Jhumka" target="_blank" rel="noopener">Order on WhatsApp</a>
+      </article>
+      <article class="card reveal" data-delay="200" data-cat="women">
+        <div class="img" style="--img:url('images/p3.jpg'); --g:linear-gradient(135deg,#ff9a56,#e8590c)"><span class="badge">-45%</span></div>
+        <h3>Traditional Borla</h3>
+        <div class="stars">★★★★★ <small>(76)</small></div>
+        <div class="price"><b>₹349</b> <s>₹649</s></div>
+        <a class="btn btn-sm" href="https://wa.me/919571576882?text=Hi%2C%20I%20want%20to%20order%20Traditional%20Borla" target="_blank" rel="noopener">Order on WhatsApp</a>
+      </article>
+      <article class="card reveal" data-delay="300" data-cat="women">
+        <div class="img" style="--img:url('images/p4.jpg'); --g:linear-gradient(135deg,#ffe08a,#ffa726)"><span class="badge">-30%</span></div>
+        <h3>1 Gram Bangles (Set of 4)</h3>
+        <div class="stars">★★★★☆ <small>(61)</small></div>
+        <div class="price"><b>₹449</b> <s>₹649</s></div>
+        <a class="btn btn-sm" href="https://wa.me/919571576882?text=Hi%2C%20I%20want%20to%20order%201%20Gram%20Bangles" target="_blank" rel="noopener">Order on WhatsApp</a>
+      </article>
+      <article class="card reveal" data-cat="men">
+        <div class="img" style="--img:url('images/p5.jpg'); --g:linear-gradient(135deg,#f5b041,#b9770e)"><span class="badge">-38%</span></div>
+        <h3>Rajasthani Kanthi</h3>
+        <div class="stars">★★★★★ <small>(142)</small></div>
+        <div class="price"><b>₹499</b> <s>₹799</s></div>
+        <a class="btn btn-sm" href="https://wa.me/919571576882?text=Hi%2C%20I%20want%20to%20order%20Rajasthani%20Kanthi" target="_blank" rel="noopener">Order on WhatsApp</a>
+      </article>
+      <article class="card reveal" data-delay="100" data-cat="men">
+        <div class="img" style="--img:url('images/p6.jpg'); --g:linear-gradient(135deg,#ffc371,#ff5f6d)"><span class="badge">-33%</span></div>
+        <h3>Gold Finish Chain</h3>
+        <div class="stars">★★★★☆ <small>(88)</small></div>
+        <div class="price"><b>₹399</b> <s>₹599</s></div>
+        <a class="btn btn-sm" href="https://wa.me/919571576882?text=Hi%2C%20I%20want%20to%20order%20Gold%20Finish%20Chain" target="_blank" rel="noopener">Order on WhatsApp</a>
+      </article>
+      <article class="card reveal" data-delay="200" data-cat="men">
+        <div class="img" style="--img:url('images/p7.jpg'); --g:linear-gradient(135deg,#ffd36b,#e67e22)"><span class="badge">-42%</span></div>
+        <h3>Men's Kada</h3>
+        <div class="stars">★★★★☆ <small>(53)</small></div>
+        <div class="price"><b>₹349</b> <s>₹599</s></div>
+        <a class="btn btn-sm" href="https://wa.me/919571576882?text=Hi%2C%20I%20want%20to%20order%20Mens%20Kada" target="_blank" rel="noopener">Order on WhatsApp</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="about-grid">
+      <div class="about-img reveal" style="--img:url('images/shop.jpg'); --g:linear-gradient(135deg,#ffb347,#ff7e00)"></div>
+      <div class="about-txt">
+        <p class="eyebrow reveal">Our Story</p>
+        <h2 class="reveal" data-delay="100">Tradition You Can Wear Every Day</h2>
+        <p class="reveal" data-delay="200">Nagauri Singaar is a trusted artificial jewellery shop in Osian, run by Lata Bhakar and Hemant Choudhary. We bring Rajasthani-style designs to everyone, at prices that make every festival and every wedding special.</p>
+        <div class="stats reveal" data-delay="300">
+          <div><b class="count" data-to="95">0</b><b>K+</b><span>Instagram family</span></div>
+          <div><b class="count" data-to="30">0</b><b>K+</b><span>YouTube subscribers</span></div>
+        </div>
+        <a class="btn reveal" data-delay="400" href="https://www.instagram.com/nagauri_sringar_osian" target="_blank" rel="noopener">Follow on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section alt" id="contact">
+    <div class="head">
+      <p class="eyebrow reveal">Get in Touch</p>
+      <h2 class="reveal" data-delay="100">Visit Our Shop</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="c-card reveal">
+        <h3>Address</h3>
+        <p>PWH3+X9Q, Teshil Road,<br />Osian, Rajasthan 342303</p>
+        <a class="btn btn-sm" href="https://www.google.com/maps/search/?api=1&query=PWH3%2BX9Q+Osian+Rajasthan" target="_blank" rel="noopener">Open in Maps</a>
+      </div>
+      <div class="c-card reveal" data-delay="100">
+        <h3>Call / WhatsApp</h3>
+        <p>095715 76882</p>
+        <a class="btn btn-sm" href="https://wa.me/919571576882" target="_blank" rel="noopener">Chat Now</a>
+      </div>
+      <div class="c-card reveal" data-delay="200">
+        <h3>Owners</h3>
+        <p>Lata Bhakar<br />Hemant Choudhary</p>
+        <a class="btn btn-sm" href="https://www.instagram.com/nagauri_sringar_osian" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nagauri Singaar, Osian. All rights reserved.</p>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/919571576882" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
